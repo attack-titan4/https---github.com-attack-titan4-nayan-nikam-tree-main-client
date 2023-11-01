@@ -199,7 +199,7 @@ input:focus {
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .home-top-bar{
     width: 100%;
 
@@ -229,6 +229,33 @@ input:focus {
   .menu-icon{
     margin-right: 0px;
     
+  }
+
+  .home-main-section{
+    width: 100%;
+  }
+
+  .top{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .left{
+    width: 100%;
+  }
+
+  .tag2{
+    font-size: 2.3rem;
+  }
+
+  .right{
+    width: 100%;
+  }
+
+  .companies{
+    width: 400px;
+    flex-wrap: wrap;
+    margin-top: 50px;
   }
   
 }
